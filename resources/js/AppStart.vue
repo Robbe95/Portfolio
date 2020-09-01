@@ -57,7 +57,7 @@
     @font-face {
         font-family: "brushKing";
         src: local("brushKing"),
-        url(../fonts/fancy-text/brushKing.otf) format("truetype");
+        url(../fonts/fancy-text/BrushKing.otf) format("truetype");
     }
 
 
