@@ -1,8 +1,9 @@
 <template>
     <div id="home-view">
-        <v-parallax idalt="banner" src="../images/parallex-min.jpg" height="1000" class="blurred-parallex">
+        <div class="img-banner-div">
+            <img idalt="banner" src="../images/parallex-min.jpg" height="1000" class="blurred-parallex">
 
-        </v-parallax>
+        </div>
 
         <v-row
             align="center"
@@ -89,11 +90,12 @@ import InfoBoxCollection from '../components/InfoBox/InfoBoxCollection'
 <style lang="scss">
     @import '~vuetify/src/styles/styles.sass';
 
-.v-parallax > div > img {
+.blurred-parallex {
     filter: blur(8px);
     -webkit-filter: blur(8px);
     border-radius: 50%;
     will-change: unset;
+    width: 100%;
 
 }
 
@@ -103,10 +105,10 @@ import InfoBoxCollection from '../components/InfoBox/InfoBoxCollection'
     z-index: 15;
     color:white;
 }
-    .v-parallax {
+.img-banner-div {
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
-    margin: -20px -500px;
+    margin: -200px -500px 0px -500px;
     box-shadow: none;
 
 
