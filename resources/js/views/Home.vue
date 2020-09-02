@@ -1,25 +1,25 @@
 <template>
     <div id="home-view">
-        <v-parallax idalt="banner" src="../images/parallex-small-min.jpg" height="1000" class="blurred-parallex">
-            <v-row
-                align="center"
-                justify="center"
-                class="unblur-parallex-text"
-            >
-                <v-col class="text-center" cols="12">
-                    <h1 class="banner-name">
-                        <div class="name">
-                            Robbe Vaes
-                        </div>
-                    </h1>
-                    <h4 class="subheading" >
-                        I <vue-typer class="sub-title-typer" :text='toTypeText'  erase-style='backspace'   :erase-delay='80'></vue-typer>
-                    </h4>
-                </v-col>
-            </v-row>
+        <v-parallax idalt="banner" src="../images/parallex-min.jpg" height="1000" class="blurred-parallex">
 
         </v-parallax>
 
+        <v-row
+            align="center"
+            justify="center"
+            class="unblur-parallex-text"
+        >
+            <v-col class="text-center" cols="12">
+                <h1 class="banner-name">
+                    <div class="name">
+                        Robbe Vaes
+                    </div>
+                </h1>
+                <h4 class="subheading" >
+                    I <vue-typer class="sub-title-typer" :text='toTypeText'  erase-style='backspace'   :erase-delay='80'></vue-typer>
+                </h4>
+            </v-col>
+        </v-row>
 
         <div class="content-box">
             <div>
@@ -97,7 +97,13 @@ import InfoBoxCollection from '../components/InfoBox/InfoBoxCollection'
 
 }
 
-.v-parallax {
+.unblur-parallex-text {
+    position: absolute;
+    top: 350px;
+    z-index: 15;
+    color:white;
+}
+    .v-parallax {
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
     margin: -20px -500px;
