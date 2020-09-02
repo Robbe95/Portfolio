@@ -1,6 +1,6 @@
 <template>
     <div id="home-view">
-        <v-parallax idalt="banner" src="../images/parallex.jpg" height="1000" class="blurred-parallex">
+        <v-parallax idalt="banner" src="../images/parallex-min.jpg" height="1000" class="blurred-parallex">
             <v-row
                 align="center"
                 justify="center"
