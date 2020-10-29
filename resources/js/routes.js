@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 
 import Home from './views/Home';
 import About from './views/About';
+import Vote from './views/Vote';
+
 import Projects from './views/Projects';
 
 Vue.use(VueRouter);
@@ -18,6 +20,11 @@ const router = new VueRouter({
            path: '/about',
            name: 'about',
            component: About
+       },
+       {
+           path: '/vote',
+           name: 'vote',
+           component: Vote
        },
        {
            path: '/projects',
