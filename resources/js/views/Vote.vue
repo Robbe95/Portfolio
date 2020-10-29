@@ -1,7 +1,7 @@
 <template>
     <div class="vote-flexbox">
         <div>
-            <iframe src="http://www.strawpoll.me/embed_1/21181801" style="width:680px;height:400px;border:0;">Loading poll...</iframe>
+            <iframe src="https://www.strawpoll.me/embed_1/21181801" style="width:680px;height:400px;border:0;">Loading poll...</iframe>
         </div>
     </div>
 
