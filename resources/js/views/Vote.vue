@@ -1,7 +1,7 @@
 <template>
     <div class="vote-flexbox">
-        <div>
-            <iframe src="https://www.strawpoll.me/embed_1/21181801" style="width:680px;height:400px;border:0;">Loading poll...</iframe>
+        <div style="width: 100%">
+            <iframe src="https://www.strawpoll.me/embed_1/21181801" style="width:100%;height: 550px;border:0;">Loading poll...</iframe>
         </div>
     </div>
 
@@ -28,8 +28,15 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 50%;
+        max-width: 660px;
     }
     .container {
         justify-content: center;
+    }
+    @media only screen and (max-width: 1000px) {
+        .vote-flexbox {
+            width: 100% !important;
+        }
     }
 </style>
