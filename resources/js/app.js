@@ -20,6 +20,18 @@ window.ScrollTrigger = ScrollTrigger;
 
 //Set components
 Vue.use(router);
+import VueAnalytics from 'vue-analytics';
+//and then use it in main.js
+
+Vue.use(VueAnalytics, {
+    id: 'G-0V4NRM2WJP',
+    router: router,
+    debug: {
+        enabled: true,
+        trace: true,
+        sendHitTask: true
+    }
+})
 const app = new Vue({
     vuetify,
     store,

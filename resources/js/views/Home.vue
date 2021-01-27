@@ -70,6 +70,9 @@ import InfoBoxCollection from '../components/InfoBox/InfoBoxCollection'
         },
 
         methods: {
+            track () {
+                this.$ga.page('/')
+            },
             showSocials: function(event) {
                 document.getElementsByClassName('v-application--wrap')[0].classList.add('blurred-app');
 
