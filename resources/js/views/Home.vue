@@ -1,6 +1,6 @@
 <template>
     <div id="home-view">
-        <div class="img-banner-div">
+        <div class="img-banner-div analytics">
             <img idalt="banner" src="../images/parallex-min.jpg" height="1000" class="blurred-parallex">
 
         </div>
@@ -52,6 +52,7 @@ import { VueTyper } from 'vue-typer'
 import CardStack from '../components/CardStack/CardStack'
 import SocialDialog from '../components/SocialDialog/SocialDialog'
 import InfoBoxCollection from '../components/InfoBox/InfoBoxCollection'
+
 
     export default {
         data: function() {
