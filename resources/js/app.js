@@ -24,7 +24,7 @@ import VueAnalytics from 'vue-analytics';
 //and then use it in main.js
 
 Vue.use(VueAnalytics, {
-    id: 'G-0V4NRM2WJP',
+    id: 'UA-260251175-1',
     router: router,
     debug: {
         enabled: true,
